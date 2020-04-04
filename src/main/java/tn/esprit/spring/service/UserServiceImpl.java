@@ -50,6 +50,11 @@ public User retrieveUser(String id) {
 	return u;
 	
 }
+@Override
+public User Authentification(User u) {
+	// TODO Auto-generated method stub
+	return null;
+}
 
 }
 

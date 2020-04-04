@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.omg.CORBA.UserException;
 
+
+
 import tn.esprit.spring.entity.*;
 public interface UserSerivce {
 	List<User> retrieveAllUsers();
@@ -11,5 +13,6 @@ public interface UserSerivce {
 	void deleteUser(String id);
 	User updateUser(User u);
 	User retrieveUser(String id);
+	User Authentification(User u);
 	
 }

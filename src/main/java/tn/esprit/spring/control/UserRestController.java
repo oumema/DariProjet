@@ -38,7 +38,7 @@ public class UserRestController {
 	User user= userService.addUser(u);
 	return user;
 	}
-	// http://localhost:8081/SpringMVC/servlet/remove-user/{user-id}
+	//
 	@DeleteMapping("/remove-user/{user-id}")
 	@ResponseBody
 	public void removeUser(@PathVariable("user-id") String userId) {
